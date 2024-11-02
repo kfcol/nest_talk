@@ -1,0 +1,31 @@
+name: nest_talk
+description: A WiFi-based chat application
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.27.1
+  cloud_firestore: ^4.14.0
+  firebase_auth: ^4.17.9
+  firebase_auth_web: ^5.9.9
+  connectivity_plus: ^5.0.2
+  network_info_plus: ^4.1.0
+  permission_handler: ^11.3.0
+  web_socket_channel: ^2.4.0
+  encrypt: ^5.0.3
+  webrtc_interface: ^1.1.2
+  dart_webrtc: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true 
